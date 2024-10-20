@@ -69,23 +69,23 @@ if (isset($_POST['Submit'])) {
                     <form action="tambah.php" method="post" name="form1">
                         <div class="mb-3">
                             <label class="form-label">Email</label>
-                            <input type="email" name="email" class="form-control">
+                            <input type="email" name="email" class="form-control" required>
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Nama</label>
-                            <input type="text" name="nama" class="form-control">
+                            <input type="text" name="nama" class="form-control" required>
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Institusi</label>
-                            <input type="text" name="institusi" class="form-control">
+                            <input type="text" name="institusi" class="form-control" required>
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Kota</label>
-                            <input type="text" name="country" class="form-control">
+                            <input type="text" name="country" class="form-control" required>
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Alamat</label>
-                            <input type="text" name="addres" class="form-control">
+                            <input type="text" name="addres" class="form-control" required>
                         </div>
                         <div class="d-grip gap-2">
                             <input type="submit" class="btn btn-primary" name="Submit" value="Daftar">
